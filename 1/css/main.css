@@ -395,3 +395,17 @@ form .notification .highlight{
 .congratulate .shadow.r{
 	right: 0;
 }
+form{
+	position: relative;
+}
+form.loading .loading{
+	position: absolute;
+	width: 5rem;
+	height: 5rem;
+	background: url(../img/loading3.gif) no-repeat;
+	background-size: cover;
+	left: 50%;
+	top: 40%;
+	margin-left: -2.5rem;
+	margin-top: -2.5rem;
+}
