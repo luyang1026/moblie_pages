@@ -8,7 +8,11 @@
 			height: 100%;
 		}
 		body{
-			background: url(zhongguo.png) center center no-repeat;
+			background: url(zhongguo.png) center center no-repeat yellow;
+		}
+		p{
+			word-spacing: 1em;
+			letter-spacing: 
 		}
 	</style>
 	<script>
@@ -16,10 +20,20 @@
 		img.src = '2.jpg';
 		img.onload = function(){
 			document.body.style.background = 'none';
-			document.body.appendChild(img)
+		}
+		window.onload = function(){
 		}
 	</script>
 </head>
 <body>
+	<img src="2.jpg" height="1800" width="2880" alt="">
+	<a href="http://www.baidu.com">sasdf</a>
+	<script>
+		window.onunload = function(){
+			alert(1)
+		}
+	</script>
 </body>
+	<p>this is a p!.</p>
+	<p>阿 斯蒂芬</p>
 </html>
